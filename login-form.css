@@ -1,0 +1,46 @@
+.box{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 30px;
+}
+.email,.password{
+    padding: 4px ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+    font-family: montserrat;
+}
+p{
+    margin: 0;
+    font-family: montserrat ;
+}
+
+.privacy-policy{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+button{
+    margin-top: 30px;
+    padding: 4px;
+    background: white;
+    border-radius: 4px;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: montserrat;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+button:active{
+   padding: 3px;
+}
+.checkbox:hover{
+   padding: 0.1px;
+}
+
